@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: ledgerlink-consumer
+
+ledgerlink:
+  base-url: http://localhost:8080
+  funding-account-id: ACC-PAYROLL
+
+server:
+  port: 8081
+
+logging:
+  level:
+    com.ledgerlink: INFO
